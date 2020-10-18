@@ -2,9 +2,9 @@ const Koa = require('koa');
 const app = new Koa();
 
 app.use(async (ctx, next) => {
-  console.log('AAAAA-start');
+  console.log('AAAAAA-start');
   await next();
-  console.log('AAAAA-end');
+  console.log('AAAAAA-end');
 });
 
 app.use(async (ctx, next) => {
