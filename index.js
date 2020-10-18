@@ -8,9 +8,9 @@ app.use(async (ctx, next) => {
 });
 
 app.use(async (ctx, next) => {
-  console.log('BBBBB-start')
+  console.log('B-start')
   await next();
-  console.log('BBBBB-end');
+  console.log('B-end');
 
 });
 
